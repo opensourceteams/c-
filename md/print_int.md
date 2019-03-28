@@ -2,7 +2,7 @@
 
 
 ### cpp 文件
-- print.cpp
+- hello.cpp
 
 ```aidl
 #include <stdio.h>
@@ -10,14 +10,14 @@
 int main(int argc,char *argv[])
 {
 
-    printf("%s","打印输出字符串\n");
+    printf("%d\n",50);
 }
 ```
 
 ### 编译
 - 会生成一个a.out文件
 ```aidl
-g++ cpp/print.cpp
+g++ cpp/hello.cpp
 ```
 
 
